@@ -1,5 +1,5 @@
 context:
-  version: "1.32.1"
+  version: "1.33.0"
 
 package:
   name: cloudvision
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/cloudvision/cloudvision-${{ version }}.tar.gz
-  sha256: 674870b6b5c21a7120f5e77f9ea6a8563525629b50f53bb7775b08284291dc69
+  sha256: 2b4333960a9355b1a1f9abed235b6d1d36529d4eb25832ee545e303c7902402c
 
 build:
   noarch: python
