@@ -1,5 +1,5 @@
 context:
-  version: "1.34.0"
+  version: "1.34.1"
 
 package:
   name: cloudvision
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/cloudvision/cloudvision-${{ version }}.tar.gz
-  sha256: 947b0e6d5c19a95244f9ad7b1a80b357489927062ebe412a875a4077ea8a9ef2
+  sha256: 4dc215832c1a9494cead4b327ee536fc00a4a8f790890b7fb29e0b106038cc3d
 
 build:
   noarch: python
@@ -26,7 +26,7 @@ requirements:
     - grpcio >=1.81.1
     - msgpack-python >=1.0.3
     - protobuf >=6.33.6,<8.0dev
-    - pyavd-utils ==0.0.1
+    - pyavd-utils ==0.0.7
     - requests >=2.20.1
     - typing-extensions >=4.2.0
 
