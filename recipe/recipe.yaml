@@ -29,6 +29,7 @@ requirements:
     - pyavd-utils ==0.0.7
     - requests >=2.20.1
     - typing-extensions >=4.2.0
+    - anytree ==2.13.0
 
 tests:
   - python:
